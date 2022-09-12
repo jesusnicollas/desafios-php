@@ -33,11 +33,11 @@ $cidades = [
 ]
 ];
 
-$encode = (json_encode($cidades): 
-             JSON_PRETTY_PRINT);
-
+$encode = json_encode($cidades, JSON_HEX_AMP| JSON_PRETTY_PRINT);
+echo "<pre>";
 print_r($encode);
-
-$decode = json_decode($encode);
-
+echo "</pre>";
+$decode = json_decode($encode, TRUE);
+echo "<pre>";
 print_r($decode);
+echo "</pre>";
