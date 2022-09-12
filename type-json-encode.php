@@ -32,7 +32,6 @@ $cidades = [
     'Juliante'
 ]
 ];
-
 $encode = json_encode($cidades, JSON_HEX_AMP| JSON_PRETTY_PRINT);
 echo "<pre>";
 print_r($encode);
