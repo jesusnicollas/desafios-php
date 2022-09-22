@@ -14,5 +14,5 @@ for ($i = 0; $i < count($decode); $i++) {
     echo "<pre>";
     echo ("O estado $doisNome que tem a sigla $doisSigla tem o ID: $doisID" . PHP_EOL);
 };
-
+;
 echo "</pre>";
