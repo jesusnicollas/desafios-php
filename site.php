@@ -7,6 +7,7 @@
     <p>Mensagem</p><textarea name="message" rows="6" cols="25"></textarea>
     <br />
     <input type="submit" value="Enviar mensagem">
+    <p>
     <input type="reset" value="Limpar formulário">
     </form>
 
