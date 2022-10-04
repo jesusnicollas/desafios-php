@@ -19,6 +19,5 @@ echo " $nome  , Obrigado por entrar em contato!";
         <a href="site.php">
             <input type="submit" value="VOLTAR"> 
         </a>
-        <p>
     </body>
 </html>
